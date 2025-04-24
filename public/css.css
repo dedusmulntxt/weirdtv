@@ -1,0 +1,108 @@
+body{
+	background:url("img/room.png") no-repeat center;
+	background-color: black;
+	height: 100vh;
+	width: 100vw;
+	margin: 0;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	overflow:hidden;
+	font-family:verdana;
+	font-weight: bolder;
+}
+
+body.phonebody{
+	background:url("img/wallpaper.png") no-repeat center;
+	justify-content: left;
+}
+
+phonehand{
+	background:url("img/phonehand.png") no-repeat center;
+	width:680px;
+	height:796px;
+}
+
+speechbubble{
+	background:url("img/klaksa.gif") no-repeat center;
+	width:997px;
+	height:769px;
+	display: block;
+	position: relative;
+	top: 27px;
+	left: 262px;
+}
+
+#bubblebox{
+	display: block;
+	position: relative;
+	width:513px;
+	height:347px;
+	left:311px;
+	top:218px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	text-align:center;
+}
+
+#bubblebox #toreplace p{
+	margin:30px;
+}
+
+#bubblebox #toreplace p a {
+	background-color: #e1822e;
+  	padding:7px;
+	/* border:2px solid #913114; */
+}
+
+tv{
+	background:url("img/tvoutline2.png") no-repeat center;
+	width:914px;
+	height:870px;
+	justify-content: center;
+	align-items: center;
+	display:flex;
+	cursor:url("img/remote.png") 64 64, url("img/remotesmall.png") 16 16, auto;
+}
+
+static{
+	position:absolute;
+	width:540px;
+	height:360px;
+	background:url("img/static.gif") no-repeat center;
+	opacity:1;
+}
+
+iframe, #videocontainer{
+	border:none;
+	height:360px;
+	width:540px;
+}
+
+video{
+	border:none;
+	height:360px;
+	width:540px;
+/*	transition: opacity 300ms ease-in;*/
+}
+
+.fademeout.htmx-added  {
+  opacity: 1;
+}
+
+.fademeout  {
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
+
+phone{
+	position:absolute;
+	top:5em;
+	left:10em;
+	background-image:url('img/phoneshadow.png')
+}
+
+phone a img{
+	transform: translate(9px,-9px);
+}
