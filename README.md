@@ -10,3 +10,8 @@ php artisan storage:link
 and to unarchive the videos into storage\app\public\videos
 
 the videos are not included so just put some .mp4's from your download folder there. or upload them after logging in
+
+
+
+
+if it says ```No connection could be made because the target machine actively refused it...``` then you dont have mysql running
