@@ -9,7 +9,8 @@ php artisan migrate
 php artisan storage:link    
 and to unarchive the videos into storage\app\public\videos
 
-the videos are not included so just put some .mp4's from your download folder there. or upload them after logging in
+the videos are not included so just put some .mp4's from your download folder there. or upload them after logging in (the red phone (default user/pw in migrations))
+
 
 
 
